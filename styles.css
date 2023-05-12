@@ -1,0 +1,17 @@
+.navbar {
+  text-align: right;
+}
+li {
+  display: inline;
+  padding: 30px;
+}
+li a {
+  text-align: center;
+  text-decoration: none;
+}
+.welcome-section {
+  text-align: center;
+}
+.project-section {
+  text-align: center;
+}
