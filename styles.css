@@ -1,17 +1,32 @@
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #45567d;
+  --main-gray: #303841;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
 .navbar {
-  text-align: right;
+  position: fixed;
+  background-color: var(--main-red);
 }
 li {
   display: inline;
-  padding: 30px;
-}
-li a {
-  text-align: center;
   text-decoration: none;
 }
+
 .welcome-section {
   text-align: center;
+  background-color: var(--main-blue);
 }
-.project-section {
+.projects {
   text-align: center;
+  background-color: var(--main-blue);
+}
+
+.profile-link {
+  text-align: center;
+  background-color: var(--main-gray);
 }
