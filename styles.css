@@ -4,9 +4,10 @@
   --main-blue: #45567d;
   --main-gray: #303841;
 }
+
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 .navbar {
   position: fixed;
@@ -20,13 +21,16 @@ li {
 .welcome-section {
   text-align: center;
   background-color: var(--main-blue);
+  height: 500px;
 }
 .projects {
   text-align: center;
-  background-color: var(--main-blue);
+  background-color: var(--main-gray);
+  height: 500px;
 }
 
 .profile-link {
   text-align: center;
-  background-color: var(--main-gray);
+  background-color: var(--main-white);
+  height: 200px;
 }
