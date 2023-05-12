@@ -3,9 +3,9 @@
 }
 li {
   display: inline;
+  padding: 30px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+li a {
+  text-align: center;
+  text-decoration: none;
 }
